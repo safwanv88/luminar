@@ -1,0 +1,338 @@
+
+
+
+/* header */
+
+.heads a{
+    padding: 10px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* transition: 1.0s; */
+    text-decoration: none;
+    position: relative;
+    color: black;
+   
+    
+}
+
+.heads a:hover{
+    color: blueviolet;
+}
+
+
+.heads a:hover::before{
+    left: 0;
+    width: 100%;
+}
+
+.heads a::before{
+   content: '';
+   position: absolute;
+   bottom:0;
+   left: 50%;
+   width: 0%;
+   height: 2px;
+   background-color: rgb(94, 26, 157);
+   transition: .4s ease-out;
+}
+
+
+
+
+.heads ul{
+    margin-left: 350px;
+    margin-top:3% ;
+}
+
+#head img{
+    margin-left: 10px;
+    margin-top: 2%;
+}
+
+/* banner */
+
+.baner{
+    background-color: rgb(215, 206, 236);
+    height: 500px;
+}
+
+.baner img{
+    margin-left: 55%;
+    margin-top: 1%;
+}
+
+
+.text h1{
+   
+    font-weight: bold;
+    color: rgb(94, 26, 157);
+    margin-left: 9%;
+    margin-top: -22%; font-family: "Kaisei Opti", serif;
+}
+.text h3{
+    
+    font-weight: bold;
+    color: rgb(94, 26, 157);
+    margin-left: 9%;
+    
+}
+.text p{
+    margin-left: 9%;
+    font-weight: bold;
+}
+.text button{
+    background-color:rgb(94, 26, 157) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 55px;
+    margin-left: 9%;
+    width: 150px;
+    height: 47px;
+    border: 0;
+    margin-top: 1%;
+}
+
+/* job */
+.job h1{
+    font-family: "Kaisei Opti", serif;
+    text-align: center;
+    color:rgb(94, 26, 157) ;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.job p{
+    
+    text-align: center;
+    
+    margin-top: 4%;
+    
+}
+.job input{
+    border: 0;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 3%;
+    
+}
+.job a{
+    margin-left: 70%;
+}
+/* button */
+#but1{
+    background-color: #5e1a9d; 
+    border-radius: 150%;
+     width: 50px;
+      height: 50px;
+      text-align: center;
+       margin-left: 1440px;
+       position: sticky;
+       bottom: 10%;
+   
+
+}
+#but2{
+    background-color: #5e1a9d; 
+    border-radius: 150%;
+     width: 50px;
+      height: 50px;
+      text-align: center;
+       margin-left: 1440px;
+       position: sticky;
+       bottom: 3%;
+   
+
+}
+#but3{
+    background-color: #54c454; 
+    border-radius: 150%;
+     width: 50px;
+      height: 50px;
+      text-align: center;
+       margin-left: 10px;
+       position: sticky;
+       bottom: 3%;
+       border: 0;
+   
+
+}
+
+/* boxes */
+
+.box1{
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.box2{
+    justify-content: space-evenly;
+   
+}
+
+#andro{
+    margin-top: -20px;
+    margin-left: -9px;
+}
+#py{
+    margin-top: -20px;
+    margin-left: -4px;
+}
+
+
+
+.boss{
+    width: 330px;
+    height: 680px;
+    background-color: whitesmoke ;
+    padding-top: 30px;
+   border-radius: 10px;
+   transition: .5s;
+}
+.bo {
+    /* border:  ridge white ; */
+    border-radius: 80%;
+    background-color: rgb(224, 223, 223);
+    width: 176px;
+    height: 168px;
+    text-align: center;
+    margin-left: 83px;
+        
+}
+.bo img{
+    margin-top: 30px;
+    
+
+}
+.bo img:hover{
+    filter: hue-rotate(90deg);
+}
+.bos h4{
+    font-size: 18px;
+    margin-top: 8%;
+    font-weight: bold;
+    color: rgb(94, 26, 157) ;
+    margin-left: 7px;
+}
+
+
+.bos span{
+    font-weight: bold;
+    color:rgb(94, 26, 157) ;
+}
+
+.bos p{
+    font-size: 14px;
+}
+
+.boss button{
+    /* background-color:rgb(94, 26, 157) ; */
+    color: rgb(94, 26, 157);
+    font-weight: bold;
+    border-radius: 55px;
+    margin-left: 27%;
+    width: 150px;
+    height: 47px;
+    border: 3px rgb(94, 26, 157) solid;
+    margin-top: 8%;
+
+}
+
+.boss:hover{
+    scale: 1.0;
+    background-color: white;
+    box-shadow: 2px 6px 10px rgb(43, 40, 40);
+}
+.boss:hover button{
+    background-color: rgb(94, 26, 157) ;
+    color: white;
+}
+.boss:hover .bo{
+    background-color:rgb(113, 52, 170) ;
+}
+
+.box3{
+    margin-left: 187px;
+}
+
+/* 2nd banner */
+
+.ban2{
+    background-color: whitesmoke;
+    margin-top: 7%;
+}
+
+.text1 h1{
+    font-weight: bold;
+    font-size: 50px;
+    color:rgb(94, 26, 157) ;
+    margin-left: 140px;
+    margin-top: 9%;
+    
+
+}
+
+.text1 p{
+    margin-left: 140px;
+    margin-top: 5%;
+}
+
+.text1 li{
+    
+    list-style-type: none;
+    font-size: 16px;
+    color: #515151;
+    font-family: "Mulish";
+    /* font-weight: 700; */
+    text-align: left;
+    line-height: 0;
+    margin: -53px;
+}
+.text1 ul{
+    margin-top: 5%;
+
+    margin-left: 125px;
+}
+/* baner 3 */
+
+.ban3{
+     background-image:   url(./image/pen4.jpg );
+    background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat; 
+    height: 500px;
+    padding: 1%;
+    text-align: center;
+}
+
+.bannn h1{
+    font-family: "Kaisei Opti", serif;
+    text-align: center;
+    color: rgb(231, 222, 222);
+    margin-top: 5%;
+    /* z-index: -1; */
+}
+
+.bannn p{
+    color:rgb(115, 104, 23) ;
+}
+
+.bannn button{
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 55px;
+    margin: 3%;
+    width: 150px;
+    height: 47px;
+    background-color: white;
+    color:rgb(94, 26, 157)  ;
+    
+}
+
+
+
+/* footer */
+.list-unstyled :hover{
+    color: #5e3783;
+    text-decoration: underline ;
+    text-underline-offset: 7px;
+    
+}
